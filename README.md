@@ -1,32 +1,68 @@
-React Sample Application for Learning
-Check Naviage Page for the pages.
+# React Learning and Demo Application 🚀
 
-- [Home](/)
-- [Menu](/menu)
-- [Todo](/todo)
-- [Prayer](/prayer)
-- [Login](/login)
-- [React Query](/reactQuery)
-- [Formik](/register)
-- [MyHook](/customHook)
-- [Redux](/redux)
-- [Redux Thunk](/reduxThunk)
-- [Redux RTK](/todo)
-- [Zustand](/prayer)
+[![React](https://img.shields.io/badge/React-19.1.1-blue)](https://reactjs.org/)
+[![Vite](https://img.shields.io/badge/Vite-7.1.11-purple)](https://vitejs.dev/)
+[![Redux Toolkit](https://img.shields.io/badge/Redux_Toolkit-2.9.2-purple)](https://redux-toolkit.js.org/)
 
-# React + Vite
+A comprehensive React application showcasing various modern React features, state management solutions, and best
+practices.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 🌟 Features
 
-Currently, two official plugins are available:
+### Core Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- 🏠 **Navigation System** - Complete routing setup with React Router
+- 🔐 **Authentication** - User login and registration functionality
+- ✅ **Todo Application** - Task management with Redux RTK
+- 🙏 **Prayer Times** - Demo with Zustand state management
 
-## React Compiler
+### State Management Examples
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- 📊 **Redux Counter** - Basic Redux implementation
+- 🔄 **Redux Thunk** - Async data fetching with Redux
+- 📱 **Redux RTK** - Modern Redux with RTK
+- 🎯 **Zustand** - Simple state management alternative
 
-## Expanding the ESLint configuration
+### Advanced React Patterns
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- 🎣 **Custom Hooks** - Demonstration of custom hook creation
+- 📝 **Forms with Formik** - Form handling with validation
+- 🔄 **React Query** - Data fetching and caching
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+- Node.js (Latest LTS version)
+- npm package manager
+
+### Installation
+
+## 📝 Additional Notes
+
+### Vite Configuration
+
+This project uses Vite as the build tool with the following official plugins:
+
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) - Uses Babel for
+  Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) - Uses SWC
+  for Fast Refresh
+
+### TypeScript Support
+
+While this project uses JavaScript, TypeScript support can be added for better type safety and developer experience. For
+TypeScript integration, refer to
+the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts).
+
+### ESLint Configuration
+
+The project includes basic ESLint configuration. For production applications, consider:
+
+- Enabling TypeScript with type-aware lint rules
+- Integrating [`typescript-eslint`](https://typescript-eslint.io)
+- Adding additional ESLint plugins for React best practices
+
+## 📜 License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
